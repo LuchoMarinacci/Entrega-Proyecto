@@ -7,9 +7,10 @@
      display: inline;
 }
 .body-index{
-  background-color: red;
+  background-color:black;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
-}
+ 
+  }
 div{
 padding-right: 4%;
 }
@@ -35,7 +36,7 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-  color: aqua;
+  color: yellow;
 }
 footer{
     font-family: 'Times New Roman', Times, serif;
@@ -45,6 +46,7 @@ footer{
 footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    color: white;
 }
 
 table.blueTable {
@@ -85,7 +87,7 @@ table.blueTable {
     background-color: crimson;
   }
   .body-staff{
-    background-color: grey  ;
+    background-color: black  ;
     margin: 4%;
     padding: 2%;
   }
@@ -123,7 +125,7 @@ table.blueTable {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-border: 5px solid black;
+border: 5px solid yellow;
    }
   @media (max-width: 390) {
     
@@ -142,39 +144,43 @@ font-size: 20px;
   margin: 4%;
   padding: 2%;
   font-size: 20px;
+color: white;
  }
 .body-entrenamientos{
- background-color: aqua;
+ background-color: black;
    
 }
 .h1-imagenes{
   color: black;
 }
 .body-horarios{
-  background-color: whitesmoke;
+  background-color: black;
   margin: 4%;
   padding: 2%;
 }
 .h1-horarios{
-  color: black;
+  color: yellow;
   padding: 5%;
 }
 .h1-entrenamientos{
   color: chocolate;
   text-align: center;
-  padding: 3%;
+  padding: 5%;
 }
 .div-entrenamientos1{
 font-size: 20px;
 padding: 5%;
+color: white;
 }
 .div-entrenamientos2{
   font-size: 20px;
   padding: 5%;
+  color: white;
 }
 .div-entrenamientos3{
   font-size: 20px;
   padding: 5%;
+  color: white;
 }
 footer img{
 padding: 10px;
