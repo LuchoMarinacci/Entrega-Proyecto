@@ -65,4 +65,9 @@ div {
   font-size: 20px;
   padding: 5%;
   color: white;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
 }/*# sourceMappingURL=style.css.map */

@@ -184,9 +184,23 @@ color: white;
 }
 footer img{
 padding: 10px;
+display: flex;
+justify-content: space-around;
 }
 footer div{
   margin-top: 10px;
   padding: 10px;
+  font-size: 25px;
 }
+.div-fotos{
+  object-fit: fill;
+}
+header img{
+  margin: 10px;
+}
+form{
+margin: 50px;
+
+}
+
 
