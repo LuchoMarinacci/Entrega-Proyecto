@@ -16,14 +16,14 @@ nav ul li a:hover{
   color: yellow;
 }
 h1{
-    &.h1-imagenes{
-        color: red;
+   color: red;
     }
-    &.h1-entrenamientos{
-        color: chocolate;
-    }
- 
+.h1-entrenamientos{
+  @extend h1
 }
+  .h1-galeria{
+    @extend h1
+  }
 #footer-contactos {
     display: grid;
     grid-template-columns: 1fr;
@@ -45,24 +45,24 @@ div{
     margin-top: 10px;
   padding: 10px;
 }
-.div-entrenamientos1{
-    font-size: 20px;
-    padding: 5%;
-    color: white;
-    }
-    .div-entrenamientos2{
-      font-size: 20px;
-      padding: 5%;
-      color: white;
-    }
-    .div-entrenamientos3{
-      font-size: 20px;
-      padding: 5%;
-      color: white;
-    }
     section{
       display: flex;
       align-items: flex-start;
       
     }
-    
+@mixin body {color: white; font-size: 20px;
+  
+}
+.div-entrenamientos1{
+  @include body()
+}
+.div-entrenamientos2{
+  @include body()
+}
+.div-entrenamientos3{
+  @include body()
+}
+form div{
+  font-size: 120%;
+  }
+  

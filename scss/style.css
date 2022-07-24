@@ -18,11 +18,8 @@ nav ul li a:hover {
   color: yellow;
 }
 
-h1.h1-imagenes {
+h1, .h1-galeria, .h1-entrenamientos {
   color: red;
-}
-h1.h1-entrenamientos {
-  color: chocolate;
 }
 
 #footer-contactos {
@@ -49,25 +46,26 @@ div {
   padding: 10px;
 }
 
-.div-entrenamientos1 {
-  font-size: 20px;
-  padding: 5%;
-  color: white;
-}
-
-.div-entrenamientos2 {
-  font-size: 20px;
-  padding: 5%;
-  color: white;
-}
-
-.div-entrenamientos3 {
-  font-size: 20px;
-  padding: 5%;
-  color: white;
-}
-
 section {
   display: flex;
   align-items: flex-start;
+}
+
+.div-entrenamientos1 {
+  color: white;
+  font-size: 20px;
+}
+
+.div-entrenamientos2 {
+  color: white;
+  font-size: 20px;
+}
+
+.div-entrenamientos3 {
+  color: white;
+  font-size: 20px;
+}
+
+form div {
+  font-size: 120%;
 }/*# sourceMappingURL=style.css.map */

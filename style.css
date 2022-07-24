@@ -17,11 +17,12 @@ padding-right: 4%;
 main{
 color: black;
 }
+
 nav{
-    display: flex;
-    justify-content: space-around;
-    color: black;
-    display: inline;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  display: inline;
 }
 nav ul{
   display: flex;
@@ -29,9 +30,10 @@ nav ul{
   color: black;
 }
 
-nav ul li a{
+nav ul li a{ 
+  
     text-decoration: none;
-    padding: 15px;
+    padding: 40px;
     font-size: 30px;
 
 }
@@ -128,6 +130,7 @@ table.blueTable {
 border: 5px solid yellow;
    }
   @media (max-width: 390) {
+ 
     
   
   }
@@ -159,7 +162,7 @@ color: white;
   padding: 2%;
 }
 .h1-horarios{
-  color: yellow;
+  color: red;
   padding: 5%;
 }
 .h1-entrenamientos{
@@ -195,6 +198,7 @@ footer div{
 .div-fotos{
   object-fit: fill;
 }
+
 header img{
   margin: 10px;
 }
@@ -202,5 +206,15 @@ form{
 margin: 50px;
 
 }
+.img-staff{
+margin-top: -6%;
 
+}
+.img-horarios{
+  margin-top: -6%;
+}
+form div{
+font-size: 120%;
+
+}
 
