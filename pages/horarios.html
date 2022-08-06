@@ -6,25 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gimnasio de Powerlifting">
     <meta name="keyword" content="Powerlifting, Halterofilia, Gimnasio, Competencia">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>HORARIOS</title>
 </head>
+<body class="body-horarios">
 <header>
-    <img src="../img/logobulkgym.png" alt="logobulkgym" width="300px" height="300px" class="img-horarios">
-    <nav>
-    <ul>
-        <li><a href="../index.html">INICIO</a></li>
-        <li><a href="#footer-contactos">CONTACTOS</a></li>
-        <li><a href="../pages/entrenamientos.html">ENTRENAMIENTOS</a></li>
-     <!--NOMBRE DE LOS PROFESORES COORDINADORES DUEÑOS, ETC-->
-        <li><a href="../pages/staff.html"> STAFF</a></li>
-        <li><a href="../pages/horarios.html">HORARIOS</a></li>
-        <li><a href="../pages/galeria.html">NUESTRA GALERIA</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="../index.html"><img src="../img/logobulkgym.png" alt="bulkgymlogo" width="200px" height="200px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/entrenamientos.html">ENTRENAMIENTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/staff.html">STAFF</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/horarios.html">HORARIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/galeria.html">NUESTRA GALERIA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer-contactos">CONTACTOS</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    
 </header>
 <h1 class="h1-horarios">NUESTROS HORARIOS</h1>
-<body class="body-horarios">
+
     <table class="blueTable">
         <tbody>
         <tr>
@@ -55,12 +71,14 @@
         Franco Marinacci
         011-6236-3885
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.4948380043793!2d-58.28106198417174!3d-34.743125672395934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e7f3fac1f9f%3A0xe67892d380845ab8!2sJoaqu%C3%ADn%20V.%20Gonz%C3%A1lez%202157%2C%20Quilmes%20Oeste%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657838879526!5m2!1ses-419!2sar" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.4948380043793!2d-58.28106198417174!3d-34.743125672395934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e7f3fac1f9f%3A0xe67892d380845ab8!2sJoaqu%C3%ADn%20V.%20Gonz%C3%A1lez%202157%2C%20Quilmes%20Oeste%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657838879526!5m2!1ses-419!2sar" width="300px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form class="form-horarios">
         <div> Nombre <input/></div> 
         <div>Contacto <input/></div> 
-        <div>Email <input/> <input type="submit"/> </div> 
+        <div>Email <input/> <input type="submit" class="input-submit"/> </div> 
         </form>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>

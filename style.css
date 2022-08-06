@@ -23,11 +23,11 @@ nav{
   justify-content: space-around;
   color: black;
   display: inline;
+  background-color: black;
 }
 nav ul{
   display: flex;
   justify-content: center;
-  color: black;
 }
 
 nav ul li a{ 
@@ -90,8 +90,6 @@ table.blueTable {
   }
   .body-staff{
     background-color: black  ;
-    margin: 4%;
-    padding: 2%;
   }
 .h1-staff{
   color: red;
@@ -129,16 +127,7 @@ table.blueTable {
   grid-row-gap: 0px;
 border: 5px solid yellow;
    }
-  @media (max-width: 390) {
- 
-    
-  
-  }
-
-  
-
- 
-  #footer-contactos{
+ #footer-contactos{
     display: flexbox;
 text-align: center;
 font-size: 20px;
@@ -147,7 +136,8 @@ font-size: 20px;
   margin: 4%;
   padding: 2%;
   font-size: 20px;
-color: white;
+  color: white; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 .body-entrenamientos{
  background-color: black;
@@ -158,16 +148,9 @@ color: white;
 }
 .body-horarios{
   background-color: black;
-  margin: 4%;
-  padding: 2%;
 }
 .h1-horarios{
   color: red;
-  padding: 5%;
-}
-.h1-entrenamientos{
-  color: chocolate;
-  text-align: center;
   padding: 5%;
 }
 .div-entrenamientos1{
@@ -188,7 +171,9 @@ color: white;
 footer img{
 padding: 10px;
 display: flex;
-justify-content: space-around;
+justify-content: center;
+width: 50px;
+height: 50px;
 }
 footer div{
   margin-top: 10px;
@@ -198,23 +183,24 @@ footer div{
 .div-fotos{
   object-fit: fill;
 }
-
 header img{
   margin: 10px;
 }
 form{
 margin: 50px;
-
-}
-.img-staff{
-margin-top: -6%;
-
-}
-.img-horarios{
-  margin-top: -6%;
 }
 form div{
 font-size: 120%;
-
 }
+form h2{
+  font-size: 25px;
+font-style: inline;
+}
+.form-horarios div{
+  font-size: 25px;
+}
+.input-submit{
+height: 40px;
+}
+
 
